@@ -1,0 +1,21 @@
+{
+  "name": "daily-mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.5"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.8",
+    "@types/nodemailer": "^6.4.10"
+  }
+}
