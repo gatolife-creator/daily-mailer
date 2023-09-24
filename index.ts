@@ -7,7 +7,7 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 // 毎朝6時と16時に実行
-cron.schedule("0 9,16 * * *", () => {
+cron.schedule("0 6,16 * * *", () => {
   // SMTPトランスポートを使用して再利用可能なトランスポーターオブジェクトを作成します
   let transporter = nodemailer.createTransport({
     service: "gmail",
